@@ -1,0 +1,100 @@
+.page-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f9f3e9; /* 主背景色：浅米白 */
+  overflow: hidden;
+}
+.aqua-shape-round {
+    width: 200px;
+    height: 200px;
+    background-color:aqua;
+    top: 45%;
+    left: 60%;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+    z-index: 1;
+}
+.burlywood-shape {
+    width: 160px;
+    height: 160px;
+    background-color:burlywood;
+    top: 20%;
+    left: 45%;
+    position: absolute;
+    border-radius: 16px;
+    opacity: 0.8;
+    transform: rotate(16deg);
+    z-index: 1;
+}
+.greenyellow-shape {
+    width: 240px;
+    height: 240px;
+    background-color:greenyellow;
+    top: 60%;
+    left: 20%;
+    position: absolute;
+    border-radius: 16px;
+    opacity: 0.8;
+    transform: rotate(-8deg);
+    z-index: 1;
+}
+.pink-shape-round {
+    width: 120px;
+    height: 120px;
+    background-color:pink;
+    top: 15%;
+    left: 20%;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+    z-index: 1;
+}
+.huge-button {
+    display: inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:14px 32px;
+    background-color: orange;
+    color:black;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius:12px;
+    box-shadow:0 4px 0 black;
+    cursor:pointer;
+    transition:all 0.2s ease;
+    z-index: 10;
+}
+.huge-title {
+    position:relative;
+    text-align: center;
+    font-family:"KaiTi","STKaiti",serif;
+    font-size: 48px;
+    line-height: 1.6;
+    color:black;
+    margin-bottom:24px;
+    z-index: 10;
+}
+.subtitle {
+    position:relative;
+    text-align:center;
+    font-family:"KaiTi","STKaiti",serif;
+    font-size: 24px;
+    line-height: 1.6;
+    color:black;
+    margin-bottom:24px;
+    z-index: 10;
+}
+.box {
+    position:relative;
+    display:block;
+    border:3px solid black;
+    gap:8px;
+    border-radius: 12px;
+    z-index:10;
+    padding:8px 14px;
+    font-size:14px;
+    font-weight: 700;
+}
